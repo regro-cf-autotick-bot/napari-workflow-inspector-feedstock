@@ -1,5 +1,5 @@
 {% set name = "napari-workflow-inspector" %}
-{% set version = "0.1.3" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/napari-workflow-inspector-{{ version }}.tar.gz
-  sha256: a0db0deab18456c993ef7eb118b8a7257189a08e38a10d7f2c5d09b093f04196
+  sha256: 50314c57f71c451ff3c5c9ab8163506c589b30204b34e9dbff35f5d92ce81ad5
 
 build:
   noarch: python
