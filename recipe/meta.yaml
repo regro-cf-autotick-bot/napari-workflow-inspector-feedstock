@@ -25,12 +25,11 @@ requirements:
     - napari-workflows
     - numpy
     - python >=3.7
-    - python-igraph
+    - networkx
 
 test:
   imports:
     - napari_workflow_inspector
-    - igraph
   commands:
     - pip list
     # - pip check
@@ -40,7 +39,7 @@ test:
 about:
   home: https://github.com/haesleinhuepf/napari-workflow-inspector
   summary: Inspect relationships between napari-plugins in active workflows
-  license: GPL-2.0
+  license: BSD-3-Clause
   license_file: LICENSE
 
 extra:
